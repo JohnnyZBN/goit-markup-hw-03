@@ -23,6 +23,20 @@ h3 {
     letter-spacing: 0.02em;    
 }
 ul {list-style-type: none;}
+.container{
+  width:1158px;
+  
+}
+.header{display:inline-flex}
+.menu, .contact{
+  display:flex;
+gap:40px
+}
+.contact{
+  justify-content: flex-end;
+}
+
+
 
   
   .logo-link{color:#4d5ae5;
