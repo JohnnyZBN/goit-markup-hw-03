@@ -23,7 +23,10 @@
     font-style: normal;
   }
    */
-   
+ *{
+ margin: 0;
+padding: 0;
+}  
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -158,7 +161,7 @@ width: calc((100% - 72px) / 4);
 }
  .aboutus-header, .portfolio-listheader, .aboutus-listheader, .ourteam-listheader, .logo{color: #2e2f42;}
 .visually-hidden{
- visibility: hidden;
+ display: none;
 }
 .aboutus-listheader{
   margin-bottom: 8px;
