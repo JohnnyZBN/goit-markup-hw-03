@@ -59,8 +59,8 @@ ul {list-style-type: none;}
 }
 .container-header {
   display:flex;
-  margin-top:25.5px;
-  margin-bottom: 25.5px
+  padding-top:25.5px;
+  padding-bottom: 25.5px
 }
 .header{
   border-bottom: 1px solid #e7e9fc
@@ -72,6 +72,9 @@ ul {list-style-type: none;}
 .menu, .contact{
   display:flex;
 gap:40px
+}
+.contact{
+  margin-left: 322px;
 }
 
 img{display:block;}
