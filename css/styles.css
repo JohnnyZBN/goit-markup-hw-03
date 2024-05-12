@@ -154,10 +154,10 @@ max-width:496px;
   gap:24px;
 }
 .li-aboutus{
-  width: calc((100%-72px)/4)
+  width: calc((100% - 72px) /4);
 }
  .aboutus-header, .portfolio-listheader, .aboutus-listheader, .ourteam-listheader, .logo{color: #2e2f42;}
-.aboutus-header{
+.visually-hidden{
   display:none;
 }
 .aboutus-listheader{
