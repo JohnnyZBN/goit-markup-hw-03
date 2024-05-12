@@ -158,7 +158,7 @@ width: calc((100% - 72px) / 4);
 }
  .aboutus-header, .portfolio-listheader, .aboutus-listheader, .ourteam-listheader, .logo{color: #2e2f42;}
 .visually-hidden{
-  display:none;
+ visibility: hidden;
 }
 .aboutus-listheader{
   margin-bottom: 8px;
